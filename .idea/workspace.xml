@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76fa8db-c629-45e1-92d8-6f94de148b4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MedianofArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode_challenges/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode_challenges/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.LongestSubstring">
+  <component name="RunManager" selected="Application.LongestPalindrome">
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestPalindrome" />
+      <module name="leetcode_challenges" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestSubstring" />
       <module name="leetcode_challenges" />
@@ -52,8 +57,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MedianofArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MedianofArrays" />
+      <module name="leetcode_challenges" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.MedianofArrays" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.Main" />
       </list>
@@ -77,30 +91,35 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601004774855" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1601009953169">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1601144880008">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680/-734.-1080.1920.1040/1186.-1093.1920.1040@1186.-1093.1920.1040" timestamp="1600897016722" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601009953169" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1601009953168">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601144880008" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1601144880008">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1280.680/-734.-1080.1920.1040/1186.-1093.1920.1040@1186.-1093.1920.1040" timestamp="1600897016722" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601009953168" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1601009953168">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601144880008" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1601144880008">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1280.680/-734.-1080.1920.1040/1186.-1093.1920.1040@1186.-1093.1920.1040" timestamp="1600897016722" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601009953168" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1601009953169">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601144880008" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1601144880008">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1280.680/-734.-1080.1920.1040/1186.-1093.1920.1040@1186.-1093.1920.1040" timestamp="1600897016722" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601009953169" />
-    <state x="1842" y="-749" key="com.intellij.ide.util.TipDialog" timestamp="1600892575815">
-      <screen x="1186" y="-1093" width="1920" height="1040" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601144880008" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601079785337">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1842" y="-749" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-734.-1080.1920.1040/1186.-1093.1920.1040@1186.-1093.1920.1040" timestamp="1600892575815" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601079785337" />
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601143051710">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601143051710" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
