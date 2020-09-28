@@ -1,7 +1,7 @@
 public class LongestPalindrome {
     public static void main(String[] args) {
         LongestPalindrome p = new LongestPalindrome();
-        String s = "babad";
+        String s = "babbab";
         System.out.println("Longest palindrome is: " + p.longestPalindrome(s));
     }
 
@@ -15,14 +15,15 @@ public class LongestPalindrome {
         int n = s.length();
         char firstChar, secChar;
         for(int i = 0; i < n; i++){
-            if(pali.length() >= s.substring(i, n- 1).length())
+            if(pali.length() >= s.substring(i, n - 1).length())
                 break;
             firstChar = s.charAt(i);
             for (int j = s.length() - 1; j >= i; j--){
                 secChar = s.charAt(j);
+                System.out.println(s.substring(i, j+1));
                 if(firstChar == secChar){
-                    if(isPalindrome(s.substring(i, j))){
-                        temp = s.substring(i, j);
+                    if(isPalindrome(s.substring(i, j+1))){
+                        temp = s.substring(i, j+1);
                         if(pali.length() < temp.length()){
                             pali = temp;
                         }
@@ -39,7 +40,17 @@ public class LongestPalindrome {
     }
 
     private boolean isPalindrome(String s) {
-        while(s.length() >= 1){
+        if(s.length() >= 3){
+            if (s.charAt(0) != s.charAt(s.length() - 1))
+                return false;
+            else
+                return isPalindrome(s.substring(1, s.length() - 1));
+        }
+
+        if(s.length() == 2)
+            return s.charAt(0) == s.charAt(1);
+
+        /*while(s.length() >= 1){
             if(s.charAt(0) != s.charAt(s.length() - 1))
                 return false;
             else {
@@ -48,7 +59,7 @@ public class LongestPalindrome {
                 else
                     return isPalindrome(s.substring(1, s.length() - 2));
             }
-        }
+        }*/
 
         return true;
     }
